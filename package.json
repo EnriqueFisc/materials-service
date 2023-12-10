@@ -1,5 +1,5 @@
 {
-  "name": "material_service",
+  "name": "material-service",
   "version": "1.0.0",
   "description": "Microservice for materials",
   "main": "index.js",
