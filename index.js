@@ -24,6 +24,9 @@ app.use(urlencoded({ extended: false}));
 
 app.use( require('./src/routes') );
 
+// DOCUMENTATION ROUTE
+app.use( require('./src/apiDoc/swagger') );
+
 app.get('/', (req, res, next) => {
     res.json({
         ok: true,

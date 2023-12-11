@@ -18,7 +18,7 @@ const getAllMaterials = async(req = express.request, res, next) => {
         return res.status(400)
             .json({
                 ok: false,
-                error: 'Something went wrong while creating Material'
+                error: 'Something went wrong while getting Material'
             })
     }
 }
