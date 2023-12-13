@@ -1,4 +1,4 @@
-const app = require('./index');
+const app = require('./app');
 
 // MICROSERVICES ON PORT: 
 app.listen( process.env.PORT, () => {
